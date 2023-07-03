@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6df4b1ed-8f43-4a11-9d0c-a844327dd698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/ping/ping.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/ping/ping.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/ping/ping.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/tool-bar/tool-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/tool-bar/tool-bar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/app/tool-bar/tool-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/spa-ui/tsconfig.spec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectId" id="2S4pqcj3CJ2R0UERPMoxwHt1rN1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\Julio\\Documents\\repos\\identityRd\\FrontEnd\\spa-ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Julio\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Julio\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\Julio\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6df4b1ed-8f43-4a11-9d0c-a844327dd698" name="Changes" comment="" />
+      <created>1688415900837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688415900837</updated>
+      <workItem from="1688415902238" duration="57000" />
+      <workItem from="1688416083282" duration="927000" />
+    </task>
+    <task id="LOCAL-00001" summary="cp">
+      <created>1688415923733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688415923733</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="cp" />
+    <option name="LAST_COMMIT_MESSAGE" value="cp" />
+  </component>
+</project>

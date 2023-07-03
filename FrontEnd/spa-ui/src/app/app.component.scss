@@ -1,0 +1,14 @@
+@use '@angular/material' as mat;
+
+.page
+{
+  background-color: #F5F5F5;
+}
+.container
+{
+  @include mat.elevation(4);
+  width: 800px;
+  background-color: white;
+  margin:auto;
+  height: 100vh;
+}
