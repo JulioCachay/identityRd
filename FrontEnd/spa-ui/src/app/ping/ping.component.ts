@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {MatSnackBar} from "@angular/material/snack-bar";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-ping',
@@ -8,14 +9,26 @@ import {MatSnackBar} from "@angular/material/snack-bar";
 })
 export class PingComponent {
   constructor(
-    private snackBar : MatSnackBar
+    private snackBar : MatSnackBar,
+    private http : HttpClient
   ) {
   }
 
   ping():void
   {
-    this.snackBar.open("Pong", undefined,{
-      duration:1000
-    });
+    var ep = "https://localhost:7153/api/v1/ping";
+
+    this.http.get<Pong>(ep)
+      .subscribe(r=>{
+        this.snackBar.open(r.response, undefined,{
+          duration:1000
+        });
+      })
+
   }
+}
+
+interface Pong
+{
+  response : string;
 }
