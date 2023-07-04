@@ -1,4 +1,6 @@
 
 <div class="container">
   <button mat-raised-button color="accent" (click)="ping()">Ping</button>
+  <div class="warning" *ngIf="warningVisible">{{warningText}}</div>
+  <div class="pong" *ngIf="pongVisible">PONG!!!</div>
 </div>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatSnackBar} from "@angular/material/snack-bar";
-import {HttpClient} from "@angular/common/http";
+import {HttpClient, HttpErrorResponse} from "@angular/common/http";
+import {catchError, throwError} from "rxjs";
 
 @Component({
   selector: 'app-ping',
@@ -9,22 +10,44 @@ import {HttpClient} from "@angular/common/http";
 })
 export class PingComponent {
   constructor(
-    private snackBar : MatSnackBar,
     private http : HttpClient
   ) {
   }
 
+  warningVisible = false;
+  warningText = "";
+  pongVisible = false;
   ping():void
   {
     var ep = "https://localhost:7153/api/v1/ping";
 
     this.http.get<Pong>(ep)
-      .subscribe(r=>{
-        this.snackBar.open(r.response, undefined,{
-          duration:1000
-        });
-      })
+      .subscribe(
+        {
+          next:r=>this.ShowPong(),
+          error:e=>{
+            this.ShowError(e.toString())
+          }
+        }
+      );
 
+  }
+
+  private ShowPong():void
+  {
+    this.pongVisible = true;
+    setTimeout(()=>{
+      this.pongVisible = false;
+    },2500);
+  }
+  private ShowError(errorCode:string)
+  {
+    this.warningText = "Error: " + errorCode;
+    this.warningVisible = true;
+    setTimeout(()=>{
+      this.warningText = "";
+      this.warningVisible = false;
+    },2500);
   }
 }
 

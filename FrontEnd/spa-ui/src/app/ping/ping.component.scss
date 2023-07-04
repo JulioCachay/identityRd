@@ -4,4 +4,26 @@
   margin-top: 120px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap:36px;
+  padding:36px;
+}
+
+.warning
+{
+  padding:24px;
+  color:white;
+  border-radius: 16px;
+  background-color: tomato;
+  text-align: center;
+  font-size: 2rem;
+}
+.pong
+{
+  padding:24px;
+  color:white;
+  border-radius: 16px;
+  background-color: darkgreen;
+  text-align: center;
+  font-size: 2rem;
 }

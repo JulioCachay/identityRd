@@ -1,0 +1,16 @@
+
+<div class="user" >
+  <table *ngIf="auth.user$ | async as user">
+    <tr>
+      <td>Name</td>
+      <td>{{user.name}}</td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>{{user.email}}</td>
+    </tr>
+  </table>
+  <button mat-raised-button color="primary">
+    Log to console
+  </button>
+</div>

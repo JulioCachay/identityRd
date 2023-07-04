@@ -9,14 +9,16 @@ import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
 import { PingComponent } from './ping/ping.component';
 import {MatSnackBarModule} from "@angular/material/snack-bar";
-import {HttpClientModule} from "@angular/common/http";
-import {AuthModule} from "@auth0/auth0-angular";
+import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
+import {AuthHttpInterceptor, AuthModule} from "@auth0/auth0-angular";
+import { UserDataComponent } from './user-data/user-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ToolBarComponent,
-    PingComponent
+    PingComponent,
+    UserDataComponent
   ],
   imports: [
     BrowserModule,
@@ -31,11 +33,36 @@ import {AuthModule} from "@auth0/auth0-angular";
       domain: 'dev-8is56w4e0wopjkjp.us.auth0.com',
       clientId: 'JbswWGsEPfLq8MLpkeiZjJHg8wbb7ry6',
       authorizationParams: {
-        redirect_uri: window.location.origin
+        redirect_uri: window.location.origin,
+        // Request this audience at user authentication time
+        audience: 'https://ping-api',
+
+        // Request this scope at user authentication time
+        scope: 'read:current_user'
+      },
+      // Specify configuration for the interceptor
+      httpInterceptor: {
+        allowedList: [
+          {
+            // Match any request that starts 'https://dev-8is56w4e0wopjkjp.us.auth0.com/api/v2/' (note the asterisk)
+            uri: 'https://localhost:7153/api/v1/*',
+            tokenOptions: {
+              authorizationParams: {
+                // The attached token should target this audience
+                audience: 'https://ping-api',
+
+                // The attached token should have these scopes
+                scope: 'read:current_user'
+              }
+            }
+          }
+        ]
       }
     })
   ],
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace PingApi.Controller;
 
@@ -8,6 +9,7 @@ public class PingController : ControllerBase
 {
     [HttpGet]
     [Route("ping")]
+    [Authorize]
     public async Task<ActionResult<Pong>> Ping()
     {
         return Ok(new Pong());

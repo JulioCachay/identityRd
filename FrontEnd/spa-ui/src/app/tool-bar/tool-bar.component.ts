@@ -1,6 +1,7 @@
 import {Component, Inject} from '@angular/core';
 import {AuthService} from "@auth0/auth0-angular";
 import {DOCUMENT} from "@angular/common";
+import {HttpClient} from "@angular/common/http";
 
 @Component({
   selector: 'app-tool-bar',
