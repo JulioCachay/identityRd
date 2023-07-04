@@ -16,24 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e99563b-29d1-4e87-a5bf-17a199e256e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.BackEnd.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.BackEnd.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PingApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PingApi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/Controller/PingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/Controller/PingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/bin/Debug/net7.0/PingApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/bin/Debug/net7.0/PingApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/bin/Debug/net7.0/PingApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/bin/Debug/net7.0/PingApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/PingApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/PingApi.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/PingApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/PingApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/PingApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/PingApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/ref/PingApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/ref/PingApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/refint/PingApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/obj/Debug/net7.0/refint/PingApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/ping/ping.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/ping/ping.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/ping/ping.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/ping/ping.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/ping/ping.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/ping/ping.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/tool-bar/tool-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../FrontEnd/spa-ui/src/app/tool-bar/tool-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PingApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PingApi/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +55,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.PingApi: https">
+  <component name="RunManager" selected=".NET Launch Settings Profile.PingApi: http">
     <configuration name="PingApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PingApi/PingApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -224,6 +209,8 @@
       <workItem from="1688485065026" duration="620000" />
       <workItem from="1688488139021" duration="24000" />
       <workItem from="1688493663575" duration="30000" />
+      <workItem from="1688504331502" duration="74000" />
+      <workItem from="1688505232658" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="cp">
       <created>1688468697746</created>

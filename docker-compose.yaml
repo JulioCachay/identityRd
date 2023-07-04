@@ -1,0 +1,10 @@
+﻿version: '3.4'
+services:
+  pingapi:
+    build: ./BackEnd/PingApi/PingApi
+    ports: 
+      - "5231:80"
+  pingui:
+    build: ./FrontEnd/spa-ui
+    ports:
+      - "4200:80"

@@ -45,7 +45,7 @@ import { UserDataComponent } from './user-data/user-data.component';
         allowedList: [
           {
             // Match any request that starts 'https://dev-8is56w4e0wopjkjp.us.auth0.com/api/v2/' (note the asterisk)
-            uri: 'https://localhost:7153/api/v1/*',
+            uri: 'http://localhost:5231/api/v1/*',
             tokenOptions: {
               authorizationParams: {
                 // The attached token should target this audience

@@ -19,7 +19,7 @@ export class PingComponent {
   pongVisible = false;
   ping():void
   {
-    var ep = "https://localhost:7153/api/v1/ping";
+    var ep = "http://localhost:5231/api/v1/ping";
 
     this.http.get<Pong>(ep)
       .subscribe(
