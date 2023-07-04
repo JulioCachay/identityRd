@@ -469,30 +469,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jcach\\.nuget\\packages\\": {}
+    "C:\\Users\\Julio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jcach\\RiderProjects\\IdentityRD\\BackEnd\\PingApi\\PingApi\\PingApi.csproj",
+      "projectUniqueName": "C:\\Users\\Julio\\RiderProjects\\identityRd\\BackEnd\\PingApi\\PingApi\\PingApi.csproj",
       "projectName": "PingApi",
-      "projectPath": "C:\\Users\\jcach\\RiderProjects\\IdentityRD\\BackEnd\\PingApi\\PingApi\\PingApi.csproj",
-      "packagesPath": "C:\\Users\\jcach\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jcach\\RiderProjects\\IdentityRD\\BackEnd\\PingApi\\PingApi\\obj\\",
+      "projectPath": "C:\\Users\\Julio\\RiderProjects\\identityRd\\BackEnd\\PingApi\\PingApi\\PingApi.csproj",
+      "packagesPath": "C:\\Users\\Julio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio\\RiderProjects\\identityRd\\BackEnd\\PingApi\\PingApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jcach\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/jcachay0747/78a38bad-8a25-4b02-83b1-9b470316c107/_packaging/HorariosMagicosNugets/nuget/v3/index.json": {},
-        "https://pkgs.dev.azure.com/jcachay0747/c98e818a-1edf-42b1-87bc-9bd61c21ad63/_packaging/Net_Feed/nuget/v3/index.json": {}
+        "https://pkgs.dev.azure.com/jcachay0747/78a38bad-8a25-4b02-83b1-9b470316c107/_packaging/HorariosMagicosNugets/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
