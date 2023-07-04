@@ -1,4 +1,25 @@
 
+<nav>
+  <div class="title">Ping Server App</div>
+  <div>
+    <ng-container *ngIf="auth.user$ | async as user; else loggedOut">
+      <button class="button" mat-flat-button
+              color="accent" (click)=logout()>
+        <span>Logout</span>
+        <mat-icon>logout</mat-icon>
+      </button>
+    </ng-container>
+    <ng-template #loggedOut>
+      <button mat-flat-button
+              color="accent"
+              (click)="login()">
+        <span>Login</span>
+        <mat-icon>login</mat-icon>
+      </button>
+    </ng-template>
+  </div>
+</nav>
+<!--</nav>
 <p>
   <mat-toolbar color="primary">
     <span>Ping / Pong</span>
@@ -8,12 +29,14 @@
       <span>{{user.name}}</span>
       <button mat-icon-button (click)=logout()>
         <mat-icon>logout</mat-icon>
+        Logout
       </button>
     </div>
     <ng-template #loggedOut>
       <button mat-icon-button (click)="login()">
+        Login
         <mat-icon>login</mat-icon>
       </button>
     </ng-template>
   </mat-toolbar>
-</p>
+</p>-->
