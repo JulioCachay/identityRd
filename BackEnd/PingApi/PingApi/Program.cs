@@ -1,4 +1,10 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+var MyAllowSpecificOrigins = "_allowAll";
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+    options.AddPolicy(MyAllowSpecificOrigins, b =>
+        b.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
 
 // Add services to the container.
 
@@ -26,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(MyAllowSpecificOrigins);
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

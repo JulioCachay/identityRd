@@ -10,6 +10,7 @@ import {MatIconModule} from "@angular/material/icon";
 import { PingComponent } from './ping/ping.component';
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import {HttpClientModule} from "@angular/common/http";
+import {AuthModule} from "@auth0/auth0-angular";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,15 @@ import {HttpClientModule} from "@angular/common/http";
     MatToolbarModule,
     MatIconModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    // Import the module into the application, with configuration
+    AuthModule.forRoot({
+      domain: 'dev-8is56w4e0wopjkjp.us.auth0.com',
+      clientId: 'JbswWGsEPfLq8MLpkeiZjJHg8wbb7ry6',
+      authorizationParams: {
+        redirect_uri: window.location.origin
+      }
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
